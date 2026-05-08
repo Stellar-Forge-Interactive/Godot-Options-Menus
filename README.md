@@ -42,6 +42,26 @@ Users that want additional features can try [Maaack's Game Template](https://git
 
 ## Installation
 
+### GitHub (Submodule)
+
+*this assumes you aren't using an IDE that can do this for you.*
+
+1. From your project root, open a terminal in your project's `addons/` directory, creating it if it doesn't exist.
+2. run `$ git submodule add https://github.com/Stellar-Forge-Interactive/Godot-Options-Menus.git`
+
+### GitHub (Manual)
+
+
+1.  Download the latest release version from [GitHub](https://github.com/Maaack/Godot-Options-Menus/releases/latest).  
+2.  Extract the contents of the archive.
+3.  Move the `addons/maaacks_options_menus` folder into your project's `addons/` folder.  
+4.  Open/Reload the project.  
+5.  Enable the plugin from the Project Settings > Plugins tab.  
+    If it's enabled for the first time,
+    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
+6.  Continue with the [Existing Project Instructions](/addons/maaacks_options_menus/docs/ExistingProject.md) 
+
+
 ### Godot Asset Library
 This package is available as a plugin, meaning it can be added to an existing project. 
 
@@ -58,19 +78,6 @@ When editing an existing project:
     If it's enabled for the first time,
     1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
 9.  Continue with the [Existing Project Instructions](/addons/maaacks_options_menus/docs/ExistingProject.md)  
-
-
-### GitHub
-
-
-1.  Download the latest release version from [GitHub](https://github.com/Maaack/Godot-Options-Menus/releases/latest).  
-2.  Extract the contents of the archive.
-3.  Move the `addons/maaacks_options_menus` folder into your project's `addons/` folder.  
-4.  Open/Reload the project.  
-5.  Enable the plugin from the Project Settings > Plugins tab.  
-    If it's enabled for the first time,
-    1.  A dialogue window will appear asking to copy the example scenes out of `addons/`.
-6.  Continue with the [Existing Project Instructions](/addons/maaacks_options_menus/docs/ExistingProject.md) 
 
 
 ## Usage
