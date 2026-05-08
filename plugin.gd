@@ -2,7 +2,7 @@
 class_name MaaacksOptionsMenusPlugin
 extends EditorPlugin
 
-const PLUGIN_PATH = "res://addons/maaacks_options_menus/"
+const PLUGIN_PATH = "res://addons/Godot-Options-Menus/"
 const PLUGIN_NAME = "Maaack's Options Menus"
 const PROJECT_SETTINGS_PATH = "maaacks_options_menus/"
 

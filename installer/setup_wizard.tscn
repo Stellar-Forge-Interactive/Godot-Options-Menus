@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://uojlvirhbysk"]
 
-[ext_resource type="Script" uid="uid://coq26stqrim51" path="res://addons/maaacks_options_menus/installer/setup_wizard.gd" id="1_jck5m"]
+[ext_resource type="Script" uid="uid://coq26stqrim51" path="res://addons/Godot-Options-Menus/installer/setup_wizard.gd" id="1_jck5m"]
 
 [node name="SetupWizardDialog" type="AcceptDialog"]
 oversampling_override = 1.0
@@ -11,7 +11,7 @@ visible = true
 ok_button_text = "Done"
 dialog_autowrap = true
 script = ExtResource("1_jck5m")
-check_version_scene_path = "res://addons/maaacks_options_menus/installer/check_plugin_version.tscn"
+check_version_scene_path = "res://addons/Godot-Options-Menus/installer/check_plugin_version.tscn"
 input_prompts_directory_path = "res://assets/kenney_input-prompts/"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
